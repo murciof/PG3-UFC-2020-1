@@ -1,3 +1,27 @@
+/* HTML Elements */
+
+h1{
+    font-family: 'Prompt', sans-serif;
+}
+h2{
+    font-family: 'Prompt', sans-serif;
+}
+h3{
+    font-family: 'Prompt', sans-serif;
+}
+h4{
+    font-family: 'Prompt', sans-serif;
+}
+h5{
+    font-family: 'Prompt', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* IDs per section */
+
 #header{
     background-color: aqua;
 }
@@ -21,6 +45,8 @@
 #contribute{
     background-color: white;
 }
+
+/* Layout Classes */
 
 .s-layout-row{
     min-height: 100vh;
