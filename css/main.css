@@ -1,3 +1,27 @@
-.s-layout-line{
+#header{
+    background-color: aqua;
+}
+
+#institution{
+    background-color: antiquewhite;
+}
+
+#projects{
+    background-color: brown;
+}
+
+#stats{
+    background-color: white;
+}
+
+#collaborators{
+    background-color: blue;
+}
+
+#contribute{
+    background-color: white;
+}
+
+.s-layout-row{
     min-height: 100vh;
 }
