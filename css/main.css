@@ -1,45 +1,65 @@
 /* HTML Elements */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
 
 h1{
-    font-family: 'Prompt', sans-serif;
+    
+    font-size: 4vw;
+    color: #9BD106;
 }
+
 h2{
-    font-family: 'Prompt', sans-serif;
+    font-size: 3vw;
 }
+
 h3{
-    font-family: 'Prompt', sans-serif;
+    font-size: 2.4vw;
 }
-h4{
-    font-family: 'Prompt', sans-serif;
-}
-h5{
-    font-family: 'Prompt', sans-serif;
-}
+
 p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
 }
 
 
 /* IDs per section */
 
 #header{
-    background-color: aqua;
+    background-color: #263078;
+}
+
+#header p{
+    color: white;
 }
 
 #institution{
-    background-color: antiquewhite;
-}
-
-#projects{
-    background-color: brown;
-}
-
-#stats{
     background-color: white;
 }
 
+#projects{
+    background-color: #00aea9;
+}
+
+#stats{
+    background-color: #fe713f;
+}
+
+#stats p, #stats h3{
+    color: white;
+}
+
 #collaborators{
-    background-color: blue;
+    background-color: #263078;
+}
+
+#collaborators h3, #collaborators h4{
+    color: #FE713F;
+}
+
+#collaborators p{
+    color: white;
 }
 
 #contribute{
@@ -50,4 +70,5 @@ p{
 
 .s-layout-row{
     min-height: 100vh;
+    padding: 6vh 6vw;
 }
