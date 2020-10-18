@@ -8,8 +8,13 @@ h1, h2{
     color: #9BD106;
 }
 
+h3, h4, h5, h6{
+    color: #4C4C4C;
+}
+
 p{
     font-family: 'Montserrat', sans-serif;
+    color: #737373;   
 }
 
 /* Media queries */
@@ -21,16 +26,28 @@ p{
     h2{
         font-size: 2.8vw;
     }
-    h3{
-        font-size: 2.4vw;
+    .s-layout-row h3{
+        font-size: 2.6vw;
+        margin-bottom: 2.6vw;
     }
-    p{
-        font-size: 1.6vw;
+
+    .s-layout-row h4{
+        font-size: 1.8vw;
+        margin-bottom: 1.2vw;
+    }
+
+    .s-layout-row p{
+        font-size: 1.5vw;
+        margin-bottom: 2.2vw;
     }
 
     .s-layout-row{
         padding-right: 6vw;
         padding-left: 6vw;
+    }
+
+    .s-form-section{
+        margin-bottom: 1.2vw;
     }
 
     .s-navbar-on-header{
@@ -41,6 +58,23 @@ p{
 
     .card p {
         font-size: 1vw;
+    }
+
+    .s-link-section{
+        font-size: 1.5vw;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .s-form-section{
+        font-size: 1.5vw;
+        padding: 12px 1.8vw;
+    }
+
+    .s-select-section{
+        font-size: 1.5vw;
+        padding: 12px 1.8vw;
+        height: auto;
     }
 }
 
@@ -63,11 +97,20 @@ p{
     background-color: #00aea9;
 }
 
+#projects p, #projects h3{
+    color: white;
+}
+
+#projects h4{
+    font-weight: 600;
+    color: white;
+}
+
 #stats{
     background-color: #fe713f;
 }
 
-#stats p, #stats h3{
+#stats p, #stats h3, #stats h4{
     color: white;
 }
 
@@ -99,12 +142,57 @@ p{
 
 .s-navbar-on-header{
     position: absolute;
-    border-bottom: 3px solid #9BD106;
+    border-bottom: 2px solid #9BD106;
 }
 
 .s-navbar-on-header a{
     color: white;
+    transition: linear .15s;
 }
+
+.s-navbar-on-header a:hover{
+    color: #9BD106;
+    transition: linear .15s;
+}
+
+/* Links */
+
+.s-link-section{
+    background-color: #FE713F;
+    color: white;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.4);
+    transition: linear .1s;
+}
+
+.s-link-section:hover{
+    background-color:#ff8356;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
+    transition: linear .1s;
+}
+
+/* Form */
+
+.s-form-section{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.s-select-section{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+
 
 /* Chart card styling */
 .s-card-stats{
