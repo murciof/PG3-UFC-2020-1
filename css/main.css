@@ -60,6 +60,11 @@ p{
         font-size: 1vw;
     }
 
+    .s-card{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
     .s-link-section{
         font-size: 1.5vw;
         padding-top: 12px;
@@ -194,7 +199,12 @@ p{
 
 
 
-/* Chart card styling */
-.s-card-stats{
+/* Cards */
+
+.s-card{
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
+}
+
+#stats .s-card{
     background-color: #FFECE5;
 }
