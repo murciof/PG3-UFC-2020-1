@@ -3,6 +3,8 @@ AOS.init({
     once: true
 });
 
+new window.VLibras.Widget('https://vlibras.gov.br/app');
+
 
 var firstChart = document.getElementById('firstChart').getContext('2d');
 var firstChartConstruct = new Chart(firstChart, {
