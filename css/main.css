@@ -88,3 +88,8 @@ p{
     padding-top: 6vh;
     padding-bottom: 6vh;;
 }
+
+/* Chart card styling */
+.s-card-stats{
+    background-color: #FFECE5;
+}
