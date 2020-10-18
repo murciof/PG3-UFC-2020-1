@@ -33,6 +33,12 @@ p{
         padding-left: 6vw;
     }
 
+    .s-navbar-on-header{
+        width: 88vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
     .card p {
         font-size: 1vw;
     }
@@ -86,7 +92,18 @@ p{
 .s-layout-row{
     min-height: 100vh;
     padding-top: 6vh;
-    padding-bottom: 6vh;;
+    padding-bottom: 6vh;
+}
+
+/* Navbar */
+
+.s-navbar-on-header{
+    position: absolute;
+    border-bottom: 3px solid #9BD106;
+}
+
+.s-navbar-on-header a{
+    color: white;
 }
 
 /* Chart card styling */
