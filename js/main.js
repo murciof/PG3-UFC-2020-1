@@ -1,3 +1,8 @@
+AOS.init({
+    duration: 700,
+    once: true
+});
+
 
 var firstChart = document.getElementById('firstChart').getContext('2d');
 var firstChartConstruct = new Chart(firstChart, {
