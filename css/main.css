@@ -12,6 +12,10 @@ h3, h4, h5, h6{
     color: #4C4C4C;
 }
 
+#collaborators h3, #contribute h3{
+    text-align: center;
+}
+
 p{
     font-family: 'Montserrat', sans-serif;
     color: #737373;   
@@ -80,6 +84,12 @@ p{
         font-size: 1.5vw;
         padding: 12px 1.8vw;
         height: auto;
+    }
+
+    .s-layout-item-icon{
+        height: 16vw;
+        width: 16vw;
+        padding: 4vw;
     }
 }
 
@@ -207,4 +217,23 @@ p{
 
 #stats .s-card{
     background-color: #FFECE5;
+}
+
+/* Items */
+
+.s-layout-item{
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.s-layout-item-icon{
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.s-layout-item-icon img{
+    height: 100%;
 }

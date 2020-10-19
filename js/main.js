@@ -31,8 +31,8 @@ var firstChartConstruct = new Chart(firstChart, {
         ],
 }});
 
-var thirdChart = document.getElementById('thirdChart').getContext('2d');
-var thirdChartConstruct = new Chart(thirdChart, {
+var secondChart = document.getElementById('secondChart').getContext('2d');
+var secondChartConstruct = new Chart(secondChart, {
     type: 'bar',
     
     data : {
