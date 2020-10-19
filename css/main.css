@@ -98,10 +98,16 @@ p{
 
 #header{
     background-color: #263078;
+    position: relative;
+    z-index: -1;
 }
 
 #header p{
     color: white;
+}
+
+#header img{
+    position: fixed;
 }
 
 #institution{
@@ -235,6 +241,73 @@ p{
 
 .s-layout-item-icon img{
     height: 100%;
+}
+
+/* COVID on header styling */
+
+@keyframes rotation {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+@keyframes fade-in-covid{
+    from {
+        opacity: 0;
+        }
+        to {
+        opacity: 1;
+        }
+}
+
+@media (min-width: 1200px){
+    #covid-1{
+        height: 9vw;
+        top: 40vh;
+        right: 6vw;
+    }
+    #covid-2{
+        height: 20vw;
+        top: 20vh;
+        right: 24vw;
+    }
+    #covid-3{
+        height: 5vw;
+        top: 15vh;
+        right: 15vw;
+    }
+    #covid-4{
+        height: 10vw;
+        top: 70vh;
+        right: 20vw;
+    }
+    #covid-5{
+        height: 6vw;
+        top: 60vh;
+        right: 40vw;
+    }
+}
+
+#covid-1{
+    animation: fade-in-covid .7s ,rotation 12s infinite linear;
+}
+
+#covid-2{
+    animation: fade-in-covid .7s ,rotation 20s infinite linear;
+}
+
+#covid-3{
+    animation: fade-in-covid .7s ,rotation 8s infinite linear;
+}
+
+#covid-4{
+    animation: fade-in-covid .7s ,rotation 10s infinite linear;
+}
+#covid-5{
+    animation: fade-in-covid .7s ,rotation 9s infinite linear;
 }
 
 /* Carousel */
