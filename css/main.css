@@ -224,7 +224,6 @@ p{
 .s-layout-item{
     align-items: center;
     text-align: center;
-    height: 100%;
 }
 
 .s-layout-item-icon{
@@ -237,3 +236,5 @@ p{
 .s-layout-item-icon img{
     height: 100%;
 }
+
+/* Carousel */
