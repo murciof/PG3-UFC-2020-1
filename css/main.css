@@ -36,8 +36,8 @@ p{
     }
 
     .s-layout-row h4{
-        font-size: 1.8vw;
-        margin-bottom: 1.2vw;
+        font-size: 2vw;
+        margin-bottom: 1.6vw;
     }
 
     .s-layout-row p{
@@ -51,13 +51,21 @@ p{
     }
 
     .s-form-section{
-        margin-bottom: 1.2vw;
+        margin-bottom: 2vw;
+        font-size: 1.5vw;
+        padding: 12px 1.8vw;
     }
 
     .s-navbar-on-header{
         width: 88vw;
         margin-left: 6vw;
         margin-right: 6vw;
+    }
+
+    .s-navbar-on-header a{
+        font-size: 1.4vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
 
     .card p {
@@ -75,11 +83,6 @@ p{
         padding-bottom: 12px;
     }
 
-    .s-form-section{
-        font-size: 1.5vw;
-        padding: 12px 1.8vw;
-    }
-
     .s-select-section{
         font-size: 1.5vw;
         padding: 12px 1.8vw;
@@ -90,6 +93,7 @@ p{
         height: 16vw;
         width: 16vw;
         padding: 4vw;
+        margin-bottom: 2vw;
     }
 }
 
@@ -174,6 +178,15 @@ p{
 .s-navbar-on-header a:hover{
     color: #9BD106;
     transition: linear .15s;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    margin-left: 0 !important;
+}
+
+.mr-auto .nav-link{
+    margin-right: 0 !important;
 }
 
 /* Links */
@@ -286,8 +299,8 @@ p{
     }
     #covid-5{
         height: 6vw;
-        top: 60vh;
-        right: 40vw;
+        top: 62vh;
+        right: 42vw;
     }
 }
 
