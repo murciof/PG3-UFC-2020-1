@@ -21,6 +21,10 @@ p{
     color: #737373;   
 }
 
+input{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Media queries */
 
 @media (min-width: 1200px){
@@ -94,6 +98,26 @@ p{
         width: 16vw;
         padding: 4vw;
         margin-bottom: 2vw;
+    }
+
+    .modal .close{
+        font-size: 3.2vw;
+    }
+
+    .modal-footer button{
+        font-size: 1.4vw;
+        border-radius: 3vw;
+        padding: .8vw 2vw;
+    }
+
+    .input-group{
+        padding: .8vw;
+        border-radius: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .input-group-text, .form-control{
+        font-size: 1.4vw;
     }
 }
 
@@ -192,8 +216,6 @@ p{
 /* Links */
 
 .s-link-section{
-    background-color: #FE713F;
-    color: white;
     text-align: center;
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
@@ -205,11 +227,29 @@ p{
 }
 
 .s-link-section:hover{
-    background-color:#ff8356;
     text-decoration: none;
-    color: white;
     box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
     transition: linear .1s;
+}
+
+#institution .s-link-section{
+    background-color: #FE713F;
+    color: white;
+}
+
+#institution .s-link-section:hover{
+    background-color:#ff8356;
+    color: white;
+}
+
+#projects .s-link-section{
+    background-color: white;
+    color: #00aea9;
+}
+
+#projects .s-link-section:hover{
+    background-color: white;
+    color: #00c2bb;
 }
 
 /* Form */
@@ -246,10 +286,18 @@ p{
 }
 
 .s-layout-item-icon{
+    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     border-radius: 100%;
-    border: 1px solid black;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    transition: linear .1s;
+    border: none;
+}
+
+.s-layout-item-icon:hover{
+    box-shadow: 2px 2px 16px 4px rgba(0, 0, 0, 0.2);
+    transition: linear .1s;
 }
 
 .s-layout-item-icon img{
@@ -324,3 +372,120 @@ p{
 }
 
 /* Carousel */
+
+/* Modal */
+
+.modal-content{
+    background-color: transparent;
+    border: 0;
+}
+
+.modal-header, .modal-footer{
+border: 0;
+}
+
+.modal-backdrop.show{
+    opacity: 0.85;
+}
+
+#donationModal h2{
+    color: #00CC88;
+}
+
+#materialModal h2{
+    color: #FE7C4D;
+}
+
+#projectSendingModal h2{
+    color: #FDA902;
+}
+
+.modal .close{
+    text-shadow: none;
+    opacity: 1;
+}
+
+#donationModal .close{
+    color: #00CC88;
+}
+
+#materialModal .close{
+    color: #FE7C4D;
+}
+
+#projectSendingModal .close{
+    color: #FDA902;
+}
+
+.modal .close:hover{
+    opacity: 1;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:focus{
+    border: 2px solid;
+    background-color: transparent;
+    transition: linear .2s;
+}
+
+#donationModal button{
+    border-color: #00CC88;
+}
+
+#materialModal button{
+    border-color: #FE7C4D;
+}
+
+#projectSendingModal button{
+    border-color: #FDA902;
+}
+
+/* Input */
+
+.input-group{
+    background-color: transparent;
+    border: 2px solid rgb(200, 200, 200);
+    transition: linear .2s;
+}
+
+.input-group:focus-within{
+    transition: linear .2s;
+}
+
+#donationModal .input-group:focus-within{
+    border-color: #00CC88;
+}
+
+#materialModal .input-group:focus-within{
+    border-color: #FE7C4D;
+}
+
+#projectSendingModal .input-group:focus-within{
+    border-color: #FDA902;
+}
+
+.input-group-text{
+    background-color: transparent;
+    border: 0;
+    color: rgb(150, 150, 150);
+}
+
+.input-group-prepend{
+    align-items: center;
+    text-align: center;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 0;
+    color: rgb(200, 200, 200);
+}
+
+.form-control:focus{
+    background-color: transparent;
+    box-shadow: none;
+    color: rgb(200, 200, 200);
+}
+
+.form-control::placeholder{
+    color: rgb(150, 150, 150);
+}
