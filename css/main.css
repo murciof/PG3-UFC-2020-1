@@ -218,7 +218,7 @@ input{
     }
 }
 
-@keyframes fade-in-covid{
+@keyframes fade-in-for-header{
     from {
         opacity: 0;
         }
@@ -228,50 +228,80 @@ input{
 }
 
 @media (min-width: 1200px){
-    #covid-1{
+
+    #header-collab-1{
+        height: 30vw;
+        top: 18vh;
+        right: 26vw;
+    }
+    #header-collab-2{
+        height: 20vw;
+        top: 15vh;
+        right: 5vw;
+    }
+    #header-collab-3{
+        height: 12vw;
+        top: 68vh;
+        right: 18vw;
+    }
+
+
+    #header-covid-1{
         height: 9vw;
         top: 40vh;
         right: 6vw;
     }
-    #covid-2{
+    #header-covid-2{
         height: 20vw;
         top: 20vh;
         right: 24vw;
     }
-    #covid-3{
+    #header-covid-3{
         height: 5vw;
         top: 15vh;
         right: 15vw;
     }
-    #covid-4{
+    #header-covid-4{
         height: 10vw;
         top: 70vh;
         right: 20vw;
     }
-    #covid-5{
+    #header-covid-5{
         height: 6vw;
         top: 62vh;
         right: 42vw;
     }
 }
 
-#covid-1{
-    animation: fade-in-covid .7s ,rotation 12s infinite linear;
+#header-collab-1{
+    animation: fade-in-for-header .7s ,rotation 35s infinite linear;
 }
 
-#covid-2{
-    animation: fade-in-covid .7s ,rotation 20s infinite linear;
+#header-collab-2{
+    animation: fade-in-for-header .7s ,rotation 20s infinite linear;
 }
 
-#covid-3{
-    animation: fade-in-covid .7s ,rotation 8s infinite linear;
+#header-collab-3{
+    animation: fade-in-for-header .7s ,rotation 15s infinite linear;
 }
 
-#covid-4{
-    animation: fade-in-covid .7s ,rotation 10s infinite linear;
+#header-covid-1{
+    animation: fade-in-for-header .7s ,rotation 12s infinite linear;
 }
-#covid-5{
-    animation: fade-in-covid .7s ,rotation 9s infinite linear;
+
+#header-covid-2{
+    animation: fade-in-for-header .7s ,rotation 20s infinite linear;
+}
+
+#header-covid-3{
+    animation: fade-in-for-header .7s ,rotation 8s infinite linear;
+}
+
+#header-covid-4{
+    animation: fade-in-for-header .7s ,rotation 10s infinite linear;
+}
+#header-covid-5{
+    animation: fade-in-for-header .7s ,rotation 9s infinite linear;
 }
 
 /* Carousel */
@@ -397,7 +427,7 @@ border: 0;
 /* Media queries */
 
 @media (max-width: 575.98px){
-    #covid-1, #covid-2, #covid-3, #covid-4, #covid-5{
+    #header-covid-1, #header-covid-2, #header-covid-3, #header-covid-4, #header-covid-5{
         display: none;
     }
     h1{
@@ -512,7 +542,7 @@ border: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
-    #covid-1, #covid-2, #covid-3, #covid-4, #covid-5{
+    #header-covid-1, #header-covid-2, #header-covid-3, #header-covid-4, #header-covid-5{
         display: none;
     }
     h1{
