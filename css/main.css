@@ -88,6 +88,7 @@ input{
     min-height: 100vh;
     padding-top: 6vh;
     padding-bottom: 6vh;
+    position: relative !important;
 }
 
 /* Navbar */
@@ -523,11 +524,11 @@ border: 0;
 /* Transition between sections */
 
 @keyframes transition-move{
-    from{
-        background-position: 150% 0;
+    0%{
+        background-position: -10000% 0;
     }
-    to{
-        background-position: -50% 0;
+    100%{
+        background-position: 10000% 0;
     }
 }
 
@@ -537,17 +538,28 @@ border: 0;
     left: 0;
     box-sizing: border-box !important;
     width: 100%;
-    height: 3vw;
+    height: 4vw;
     background-origin: border;
-    background-size: 200% 100%;
+    background-size: 99% 100%;
     background-attachment: scroll;
-    background-repeat: no-repeat;
     background-position: 0 0;
-    animation: transition-move 6s linear infinite;
+    animation: transition-move 8s linear infinite;
 }
 
 .s-layout-transition-wave-white{
-    background-image: url(../img/murcio/transition-wave-white.svg);
+    background-image: url(../img/murcio/transition-wave-white.png);
+}
+
+.s-layout-transition-wave-teal{
+    background-image: url(../img/murcio/transition-wave-teal.png);
+}
+
+.s-layout-transition-wave-orange{
+    background-image: url(../img/murcio/transition-wave-orange.png);
+}
+
+.s-layout-transition-wave-teal{
+    background-image: url(../img/murcio/transition-wave-teal.png);
 }
 
 /*.s-layout-transition{

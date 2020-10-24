@@ -12,10 +12,24 @@
    version="1.1"
    viewBox="0 0 44.979 3.5277"
    id="svg8"
-   sodipodi:docname="transition-wave-white.svg"
+   sodipodi:docname="transition-wave-teal.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <defs
-     id="defs12" />
+     id="defs12">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter843"
+       x="-1.0352914e-05"
+       width="1.0000207"
+       y="-0.0001320045"
+       height="1.000264">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.00019402956"
+         id="feGaussianBlur845" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,8 +44,8 @@
      id="namedview10"
      showgrid="false"
      inkscape:zoom="4.8249818"
-     inkscape:cx="67.29083"
-     inkscape:cy="2.7407931"
+     inkscape:cx="67.049076"
+     inkscape:cy="2.7205235"
      inkscape:window-x="1358"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -45,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,6 +70,6 @@
        d="m29.104 46.302c3.0871 0 6.1739-1e-6 9.9221-0.88199 3.7482-0.88199 8.1578-2.6458 12.568-2.6457 4.4099 9.1e-5 8.8195 1.7639 12.568 2.6458s6.835 0.88188 9.9216 0.88188"
        stroke-width=".26458"
        id="path4"
-       style="fill:#ffffff;fill-opacity:1" />
+       style="fill:#263078;fill-opacity:1;filter:url(#filter843)" />
   </g>
 </svg>
