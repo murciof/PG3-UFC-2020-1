@@ -1255,6 +1255,7 @@ border: 0;
 
     .modal-footer{
         padding: 0;
+        margin-top: -.5vw;
     }
 
     .modal-footer button{
@@ -1266,7 +1267,7 @@ border: 0;
     .input-group{
         padding: .8vw;
         border-radius: 3vw;
-        margin-bottom: 1.75vw;
+        margin-bottom: 1.5vw;
     }
 
     .input-group-text, .form-control{
