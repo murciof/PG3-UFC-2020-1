@@ -272,6 +272,46 @@ input{
     }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #header-collab-1, #header-collab-2, #header-collab-3, #header-covid-1, #header-covid-2, #header-covid-3{
+        position: absolute !important;
+    }
+
+    #header-collab-1{
+        height: 35vw;
+        top: 120vh;
+        right: 55vw;
+    }
+    #header-collab-2{
+        height: 20vw;
+        top: 100vh;
+        right: 35vw;
+    }
+    #header-collab-3{
+        height: 15vw;
+        top: 150vh;
+        right: 10vw;
+    }
+
+
+    #header-covid-1{
+        height: 9vw;
+        top: 120vh;
+        right: 15vw;
+    }
+    #header-covid-2{
+        height: 8vw;
+        top: 160vh;
+        right: 40vw;
+    }
+    #header-covid-3{
+        height: 7vw;
+        top: 100vh;
+        right: 70vw;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     #header-collab-1{
         height: 32vw;
@@ -538,7 +578,6 @@ border: 0;
     left: 0;
     box-sizing: border-box !important;
     width: 100%;
-    height: 4vw;
     background-origin: border;
     background-size: 99% 100%;
     background-attachment: scroll;
@@ -589,6 +628,10 @@ border: 0;
 
     #collaborators h3, #contribute h3{
         margin-bottom: 8vw;
+    }
+
+    .s-layout-transition{
+        height: 4vw;
     }
 
     .s-layout-row h3{
@@ -711,6 +754,156 @@ border: 0;
     }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+        font-size: 6vw;
+        margin-bottom: 1vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+
+    #header h2{
+        margin-bottom: 1.5vw;
+    }
+
+    #collaborators h3, #contribute h3{
+        margin-bottom: 8vw;
+    }
+
+    .s-layout-transition{
+        height: 4.5vw;
+    }
+
+    .s-layout-row h3{
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .s-layout-row h4{
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+
+    .s-layout-row p{
+        font-size: 3vw;
+        margin-bottom: 4vw;
+    }
+
+    .s-layout-row{
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-top: 16vh;
+        padding-bottom: 16vh;
+        min-height: 120vh;
+    }
+
+    #header{
+        min-height: 200vh;
+        align-items: unset !important;
+    }
+
+    .header-content{
+        margin-top: 8vh;
+    }
+
+    .s-form-section{
+        margin-bottom: 4vw !important;
+        font-size: 3vw !important;
+        padding: 4vw 5vw !important;
+    }
+
+    .s-navbar-on-header{
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .s-navbar-on-header a{
+        font-size: 3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .card p {
+        font-size: 1vw;
+    }
+
+    .s-card{
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .s-card h5{
+        font-size: 4vw;
+    }
+
+    .s-link-section{
+        font-size: 3vw;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    #projects .s-link-section{
+        margin-bottom: 2.5vw;
+    }
+
+    .s-select-section{
+        font-size: 3vw;
+        padding: 2vw 5vw;
+        margin-bottom: 4vw;
+        height: auto;
+    }
+
+    .s-layout-item-icon{
+        height: 30vw;
+        width: 30vw;
+        padding: 8vw;
+        margin-bottom: 4vw;
+    }
+
+    .s-layout-item{
+        margin-bottom: 5vw;
+    }
+
+    .modal-header{
+        padding: 2vw 1vw;
+    }
+
+    .modal-body{
+        padding: 0vw 1vw;
+        padding-top: 2vw;
+    }
+
+    .modal .close{
+        font-size: 6vw;
+    }
+
+    .modal-footer{
+        padding: 0vw 1vw;
+    }
+
+    .modal-footer button{
+        font-size: 3vw;
+        border-radius: 10vw;
+        padding: 1.5vw 5vw;
+        margin-right: 0;
+    }
+
+    .input-group{
+        padding: .8vw;
+        border-radius: 10vw;
+        margin-bottom: 3vw;
+    }
+
+    .input-group-text, .form-control{
+        font-size: 3vw;
+    }
+
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1{
         font-size: 8vw;
@@ -726,6 +919,10 @@ border: 0;
 
     #collaborators h3, #contribute h3{
         margin-bottom: 8vw;
+    }
+
+    .s-layout-transition{
+        height: 4.8vw;
     }
 
     .s-layout-row h3{
@@ -869,6 +1066,11 @@ border: 0;
     #header h2{
         margin-bottom: 2vw;
     }
+
+    .s-layout-transition{
+        height: 4.4vw;
+    }
+
     .s-layout-row h3{
         font-size: 3vw;
         margin-bottom: 2.6vw;
@@ -968,6 +1170,10 @@ border: 0;
         margin-bottom: 3vw;
     }
 
+    .s-layout-transition{
+        height: 3vw;
+    }
+
 
     .s-layout-row h3{
         font-size: 2.6vw;
@@ -1039,6 +1245,18 @@ border: 0;
         font-size: 3.2vw;
     }
 
+    .modal-header{
+        padding: 2vw 0;
+    }
+
+    .modal-body{
+        padding: 1vw 0;
+    }
+
+    .modal-footer{
+        padding: 0;
+    }
+
     .modal-footer button{
         font-size: 1.4vw;
         border-radius: 3vw;
@@ -1048,7 +1266,7 @@ border: 0;
     .input-group{
         padding: .8vw;
         border-radius: 3vw;
-        margin-bottom: 1vw;
+        margin-bottom: 1.75vw;
     }
 
     .input-group-text, .form-control{
