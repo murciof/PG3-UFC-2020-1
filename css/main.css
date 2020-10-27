@@ -41,6 +41,11 @@ input{
     position: fixed;
 }
 
+#institution-anchor, #projects-anchor, #stats-anchor, #collaborators-anchor, #contribute-anchor{
+    position: absolute;
+    top: -3vw;
+}
+
 #institution{
     background-color: white;
 }
@@ -93,19 +98,33 @@ input{
 
 /* Navbar */
 
-.s-navbar-on-header{
+.s-navbar{
     position: absolute;
     border-bottom: 2px solid #9BD106;
+    transition: linear .2s;
 }
 
-.s-navbar-on-header a{
+.s-navbar a{
     color: white;
     transition: linear .15s;
 }
 
-.s-navbar-on-header a:hover{
+.s-navbar a:hover{
     color: #9BD106;
     transition: linear .15s;
+}
+
+.s-navbar-scroll{
+    position: fixed;
+    width: 100vw !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    transition: linear .2s;
 }
 
 .navbar-brand{
@@ -670,7 +689,7 @@ border: 0;
         padding: 3vw 5vw !important;
     }
 
-    .s-navbar-on-header{
+    .s-navbar{
         width: 96vw;
         margin-left: 2vw;
         margin-right: 2vw;
@@ -678,7 +697,7 @@ border: 0;
         padding-bottom: 1vw;
     }
 
-    .s-navbar-on-header a{
+    .s-navbar a{
         font-size: 4vw;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -813,7 +832,7 @@ border: 0;
         padding: 4vw 5vw !important;
     }
 
-    .s-navbar-on-header{
+    .s-navbar{
         width: 90vw;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -821,7 +840,7 @@ border: 0;
         padding-bottom: 1vw;
     }
 
-    .s-navbar-on-header a{
+    .s-navbar a{
         font-size: 3vw;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -962,7 +981,7 @@ border: 0;
         border-radius: 100px !important;
     }
 
-    .s-navbar-on-header{
+    .s-navbar{
         width: 94vw;
         margin-left: 3vw;
         margin-right: 3vw;
@@ -970,7 +989,7 @@ border: 0;
         padding-bottom: 2vw;
     }
 
-    .s-navbar-on-header a{
+    .s-navbar a{
         font-size: 3.5vw;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -1097,13 +1116,13 @@ border: 0;
         padding: 12px 1.8vw !important;
     }
 
-    .s-navbar-on-header{
+    .s-navbar{
         width: 92vw;
         margin-left: 4vw;
         margin-right: 4vw;
     }
 
-    .s-navbar-on-header a{
+    .s-navbar a{
         font-size: 1.6vw;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -1201,13 +1220,13 @@ border: 0;
         padding: 12px 1.8vw !important;
     }
 
-    .s-navbar-on-header{
+    .s-navbar{
         width: 88vw;
         margin-left: 6vw;
         margin-right: 6vw;
     }
 
-    .s-navbar-on-header a{
+    .s-navbar a{
         font-size: 1.4vw;
         margin-left: 1vw;
         margin-right: 1vw;

@@ -5,6 +5,12 @@ AOS.init({
 
 new window.VLibras.Widget('https://vlibras.gov.br/app');
 
+$(document).scroll(function(){
+
+    $('.s-navbar').toggleClass('s-navbar-scroll', $(this).scrollTop() > $('#header').height());
+    
+})
+
 
 var firstChart = document.getElementById('firstChart').getContext('2d');
 var firstChartConstruct = new Chart(firstChart, {
