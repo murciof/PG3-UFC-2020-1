@@ -96,6 +96,29 @@ input{
     position: relative !important;
 }
 
+.s-footer{
+    background-color: #9BD106;
+    min-height: 7vh;
+}
+
+.s-footer p{
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+
+.s-footer-networks{
+    text-align: right;
+}
+
+.s-footer-networks{
+    text-align: right;
+}
+
+.s-footer-networks a:hover, .s-footer-networks a:visited{
+    color: inherit;
+}
+
 /* Navbar */
 
 .s-navbar{
@@ -1483,5 +1506,13 @@ border: 0;
 
     .input-group-text, .form-control{
         font-size: 1.4vw;
+    }
+
+    .s-footer p{
+        font-size: 1.2vw;
+    }
+    .s-footer i{
+        font-size: 1.6vw;
+        margin-left: .6vw;
     }
 }
