@@ -242,6 +242,37 @@ input{
     background-color: lightgrey;
 }
 
+#projectModal .s-card-image-area{
+    border: 2px solid white;
+    background-color: gray;
+    width: 100%;
+}
+
+.s-file-card{
+    border: 2px solid white;
+}
+
+.s-file-card-icon-area{
+    display: flex;
+    border-bottom: 2px solid white;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-file-card-title{
+    display: flex;
+    height: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-file-card-title p{
+    color: white !important;
+    margin: 0 !important;
+}
+
 /* Items */
 
 .s-layout-item{
@@ -522,6 +553,10 @@ border: 0;
     color: #FDA902;
 }
 
+#projectModal h2{
+    color: white;
+}
+
 .modal .close{
     text-shadow: none;
     opacity: 1;
@@ -537,6 +572,10 @@ border: 0;
 
 #projectSendingModal .close{
     color: #FDA902;
+}
+
+#projectModal .close{
+    color: white;
 }
 
 .modal .close:hover{
@@ -559,6 +598,14 @@ border: 0;
 
 #projectSendingModal button{
     border-color: #FDA902;
+}
+
+.modal-body p{
+    color: rgb(180, 180, 180);
+}
+
+.modal-body h3{
+    color: white;
 }
 
 /* Input */
@@ -1358,6 +1405,12 @@ border: 0;
         margin: 1vw 0;
     }
 
+    .s-file-card{
+        height: 18vw;
+        border-radius: 3vw;
+        margin: 1vw 0;
+    }
+
     .s-link-section{
         font-size: 1.5vw;
         padding-top: 12px;
@@ -1398,6 +1451,28 @@ border: 0;
         font-size: 1.4vw;
         border-radius: 3vw;
         padding: .8vw 2vw;
+    }
+
+    .modal-body p{
+        font-size: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+
+    #projectModal .modal-dialog{
+        max-width: 750px;
+    }
+
+    #projectModal .s-card-image-area{
+        height: 30vw;
+        border-radius: 3vw;
+    }
+
+    #projectModal .modal-header{
+        padding-bottom: 1.5vw;
+    }
+
+    .s-file-card-icon{
+        height: 50%;
     }
 
     .input-group{
