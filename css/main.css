@@ -102,6 +102,8 @@ input{
     position: absolute;
     border-bottom: 2px solid #9BD106;
     transition: linear .2s;
+    background-color: rgba(38, 48, 120, 0.6);
+    backdrop-filter: blur(6px);
 }
 
 .s-navbar a{
@@ -134,6 +136,14 @@ input{
 
 .mr-auto .nav-link{
     margin-right: 0 !important;
+}
+
+.navbar-toggler{
+    border: 1px solid #9BD106;
+}
+
+.s-navbar-toggler-icon{
+    color: white !important;
 }
 
 /* Links */
@@ -723,6 +733,11 @@ border: 0;
         font-size: 4vw;
         margin-left: 1vw;
         margin-right: 1vw;
+    }
+
+    .s-navbar-scroll{
+        padding-right: 5vw;
+        padding-left: 5vw;
     }
 
     .s-nav-link-image-desktop{
