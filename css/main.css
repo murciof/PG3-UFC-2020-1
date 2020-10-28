@@ -193,12 +193,23 @@ input{
 
 /* Cards */
 
+#projects .card-body{
+    padding: 0;
+}
+
 .card-text{
     color: #737373 !important;
 }
 
 .s-card{
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+    transition: .2s linear;
+}
+
+.s-card:hover{
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);
+    transition: .2s linear;
+    text-decoration: none;
 }
 
 #stats .s-card{
@@ -208,6 +219,17 @@ input{
 .card-link{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.card-title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.s-card-image-area{
+    background-color: lightgrey;
 }
 
 /* Items */
@@ -716,6 +738,14 @@ border: 0;
         margin-bottom: 2vw;
     }
 
+    .s-card-image-area{
+        height: 42vw;
+    }
+
+    .card-title{
+        margin: 2vw 0;
+    }
+
     .s-card h5{
         font-size: 4vw;
     }
@@ -861,6 +891,14 @@ border: 0;
     .s-card{
         margin-top: 1.5vw;
         margin-bottom: 1.5vw;
+    }
+
+    .s-card-image-area{
+        height: 42vw;
+    }
+
+    .card-title{
+        margin: 2vw 0;
     }
 
     .s-card h5{
@@ -1016,6 +1054,14 @@ border: 0;
         margin-bottom: 2vw;
     }
 
+    .s-card-image-area{
+        height: 40vw;
+    }
+
+    .card-title{
+        margin: 2vw 0;
+    }
+
     .s-card h5{
         font-size: 3.5vw;
     }
@@ -1163,6 +1209,14 @@ border: 0;
         margin-bottom: 1vw;
     }
 
+    .s-card-image-area{
+        height: 15vw;
+    }
+
+    .card-title{
+        margin: 1vw 0;
+    }
+
     .s-link-section{
         font-size: 1.5vw;
         padding-top: 12px;
@@ -1279,6 +1333,14 @@ border: 0;
     .s-card{
         margin-top: 1vw;
         margin-bottom: 1vw;
+    }
+
+    .s-card-image-area{
+        height: 15vw;
+    }
+
+    .card-title{
+        margin: 1vw 0;
     }
 
     .s-link-section{
