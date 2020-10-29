@@ -1647,6 +1647,10 @@ border: 0;
         margin-right: 1vw;
     }
 
+    .s-navbar-scroll a{
+        font-size: 1.05vw;
+    }
+
     .s-nav-link-text-mobile{
         display: none;
     }
@@ -1654,6 +1658,10 @@ border: 0;
     .s-nav-link-image-desktop{
         height: 2.5vw;
         animation: rotation 30s infinite linear;
+    }
+
+    .s-navbar-scroll .s-nav-link-image-desktop{
+        height: 1.8vw;
     }
 
     .s-nav-link-right{
