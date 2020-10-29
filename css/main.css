@@ -48,7 +48,13 @@ input{
 
 #institution{
     background-color: white;
+    background-image: url(../img/mateus/institution.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
+
+
 
 #projects{
     background-color: #00aea9;
@@ -955,6 +961,13 @@ border: 0;
     .s-footer-networks{
         text-align: center;
     }
+
+    #institution{
+        min-height: 95vh;
+        background-position: bottom right;
+        background-size: 100% auto;
+        align-items: unset !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1174,6 +1187,13 @@ border: 0;
         text-align: center;
     }
 
+    #institution{
+        min-height: 250vh;
+        background-position: bottom right;
+        background-size: 80% auto;
+        align-items: unset !important;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1385,7 +1405,13 @@ border: 0;
         font-size: 1.8vw;
         margin-left: .6vw;
     }
-    
+
+    #institution{
+        min-height: 125vh;
+        background-position: bottom right;
+        background-size: 100% auto;
+        align-items: unset !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -1557,6 +1583,12 @@ border: 0;
     .s-footer i{
         font-size: 1.8vw;
         margin-left: .6vw;
+    }
+
+    #institution{
+        background-size: auto 80%;
+        background-repeat: no-repeat;
+        background-position: bottom right;
     }
 }
 
