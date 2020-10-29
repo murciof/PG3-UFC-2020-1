@@ -881,6 +881,52 @@ border: 0;
         padding: 2vw 5vw;
     }
 
+    .modal-body p{
+        font-size: 3.5vw;
+    }
+
+    .s-file-card{
+        height: 60vw;
+        border-radius: 3vw;
+        margin: 2.5vw 0;
+    }
+
+    .s-file-card-title{
+        font-size: 3.5vw;
+        height: 20%;
+    }
+
+    #projectModal h3{
+        margin-bottom: 2vw;
+        font-size: 4.7vw;
+    }
+
+    #projectModal .modal-dialog{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #projectModal .s-card-image-area{
+        height: 60vw;
+        border-radius: 3vw;
+    }
+
+    #projectModal .modal-header{
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+        padding-top: 4vw;
+        padding-bottom: .5vw;
+    }
+
+    .s-file-card-icon{
+        height: 50%;
+    }
+
+    .s-file-card-icon-area{
+        height: 80%;
+    }
+
+
     .input-group{
         padding: .8vw;
         border-radius: 10vw;
@@ -889,6 +935,25 @@ border: 0;
 
     .input-group-text, .form-control{
         font-size: 3.5vw;
+    }
+
+    .s-footer{
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+    }
+    .s-footer p{
+        text-align: center;
+        font-size: 3.4vw;
+    }
+    .s-footer i{
+        font-size: 4.6vw;
+        margin-left: .6vw;
+        margin-right: .6vw;
+        margin-top: 2.8vw;
+    }
+
+    .s-footer-networks{
+        text-align: center;
     }
 }
 
@@ -1042,6 +1107,44 @@ border: 0;
         margin-right: 0;
     }
 
+    .modal-body p{
+        font-size: 3vw;
+    }
+
+    .s-file-card{
+        height: 50vw;
+        border-radius: 3vw;
+        margin: 2.5vw 0;
+    }
+
+    .s-file-card-title{
+        font-size: 3.2vw;
+    }
+
+    #projectModal h3{
+        margin-bottom: 2vw;
+    }
+
+    #projectModal .modal-dialog{
+        max-width: 400px;
+    }
+
+    #projectModal .s-card-image-area{
+        height: 60vw;
+        border-radius: 3vw;
+    }
+
+    #projectModal .modal-header{
+        padding-top: 4vw;
+        padding-bottom: .5vw;
+    }
+
+    .s-file-card-icon{
+        height: 50%;
+    }
+
+
+
     .input-group{
         padding: .8vw;
         border-radius: 10vw;
@@ -1050,6 +1153,25 @@ border: 0;
 
     .input-group-text, .form-control{
         font-size: 3vw;
+    }
+
+    .s-footer{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    .s-footer p{
+        text-align: center;
+        font-size: 2.4vw;
+    }
+    .s-footer i{
+        font-size: 3vw;
+        margin-left: .6vw;
+        margin-right: .6vw;
+        margin-top: 1.6vw;
+    }
+
+    .s-footer-networks{
+        text-align: center;
     }
 
 }
@@ -1206,6 +1328,43 @@ border: 0;
         padding: 2vw 5vw;
     }
 
+    .modal-body p{
+        font-size: 3.2vw;
+    }
+
+    .s-file-card{
+        height: 50vw;
+        border-radius: 3vw;
+        margin: 2.5vw 0;
+    }
+
+    .s-file-card-title{
+        font-size: 3.2vw;
+    }
+
+    #projectModal h3{
+        margin-bottom: 2vw;
+    }
+
+    #projectModal .modal-dialog{
+        max-width: 550px;
+    }
+
+    #projectModal .s-card-image-area{
+        height: 60vw;
+        border-radius: 3vw;
+    }
+
+    #projectModal .modal-header{
+        padding-top: 4vw;
+        padding-bottom: .5vw;
+    }
+
+    .s-file-card-icon{
+        height: 50%;
+    }
+
+
     .input-group{
         padding: .8vw 2.5vw;
         border-radius: 10vw;
@@ -1215,6 +1374,18 @@ border: 0;
     .input-group-text, .form-control{
         font-size: 3.2vw;
     }
+
+    .s-footer{
+        min-height: 5vh;
+    }
+    .s-footer p{
+        font-size: 1.4vw;
+    }
+    .s-footer i{
+        font-size: 1.8vw;
+        margin-left: .6vw;
+    }
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -1331,6 +1502,42 @@ border: 0;
         padding: .8vw 2vw;
     }
 
+    .modal-body p{
+        font-size: 1.8vw;
+    }
+
+    .s-file-card{
+        height: 26vw;
+        border-radius: 3vw;
+        margin: 1vw 0;
+    }
+
+    .s-file-card-title{
+        font-size: 1.8vw;
+    }
+
+    #projectModal h3{
+        margin-bottom: 2vw;
+    }
+
+    #projectModal .modal-dialog{
+        max-width: 600px;
+    }
+
+    #projectModal .s-card-image-area{
+        height: 30vw;
+        border-radius: 3vw;
+    }
+
+    #projectModal .modal-header{
+        padding-top: 4vw;
+        padding-bottom: .5vw;
+    }
+
+    .s-file-card-icon{
+        height: 50%;
+    }
+
     .input-group{
         padding: .8vw;
         border-radius: 3vw;
@@ -1339,6 +1546,17 @@ border: 0;
 
     .input-group-text, .form-control{
         font-size: 1.6vw;
+    }
+
+    .s-footer{
+        min-height: 5vh;
+    }
+    .s-footer p{
+        font-size: 1.4vw;
+    }
+    .s-footer i{
+        font-size: 1.8vw;
+        margin-left: .6vw;
     }
 }
 
