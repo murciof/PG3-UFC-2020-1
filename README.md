@@ -37,6 +37,7 @@
 ### Bibliotecas
 
 - [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 - [Chart.js](https://www.chartjs.org/)
 - [Animate on Scroll](https://github.com/michalsnik/aos) – Michał Sajnóg
 - [Vlibras](https://www.vlibras.gov.br/)
