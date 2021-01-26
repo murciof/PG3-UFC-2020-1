@@ -32,7 +32,16 @@
 
 - Murcio Filho
 
-### Bibliotecas de terceiros
+## Recursos de terceiros:
 
+### Bibliotecas
+
+- [Bootstrap](https://getbootstrap.com/)
 - [Animate on Scroll](https://github.com/michalsnik/aos) – Michał Sajnóg
 - [Vlibras](https://www.vlibras.gov.br/)
+
+### Fontes
+
+- [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- [Prompt](https://fonts.google.com/specimen/Prompt)
+- [Font Awesome](https://fontawesome.com/)
